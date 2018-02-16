@@ -11,9 +11,9 @@ Dask provides multicore and distributed parallel execution on larger-than-memory
 We can think of Dask at a high and a low level
 
 - **High Level collections:** Dask provides high-level
- - Arrays
- - Bag
- - and DataFrame
+  - Arrays
+  - Bag
+  - and DataFrame
  
  collections that mimic NumPy, Lists, and Pandas but can operate in parallel on datasets that don't fit into memory. Dask's high-level collections are alternatives to NumPy and Pandas for large datasets.
  
@@ -65,7 +65,7 @@ For single-machine use, the threaded and multiprocessing schedulers are fine cho
 A good way of using these notebooks is by first cloning the repo, and then starting your own Jupyter notebook after installing all necessary packages. 
 
 
-    git clone http://github.com/dask/dask-tutorial
+    git clone https://github.com/andersy005/dask-notebooks.git
 
 and then install necessary packages.
 
