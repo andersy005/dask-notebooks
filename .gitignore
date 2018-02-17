@@ -101,3 +101,4 @@ ENV/
 .mypy_cache/
 01-dask-bags/kddcup.data_10_percent.gz
 kddcup.data_10_percent.gz
+dask-worker-space/
