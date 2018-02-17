@@ -125,7 +125,7 @@ or less linear 'story' when followed in sequence. By using the same dataset
 they try to solve a related set of tasks with it.
 
 1. [**Dask Bag creation**](https://github.com/andersy005/dask-notebooks/blob/master/01-dask-bags/01-bag-creation.ipynb): About reading files and creating bags.
-2. [**Dask Bag basics**](https://github.com/andersy005/dask-notebooks/blob/master/01-dask-bags/02-bag-basics.ipynb): A look at `map`, `filter`, `compute`, `persist`
+2. [**Dask Bag basics**](https://github.com/andersy005/dask-notebooks/blob/master/01-dask-bags/02-bag-basics.ipynb): A look at `map`, `filter`, `compute`, `persist`, `flatten`
 
 ## Contributing
 Contributions are welcome!  For bug reports or requests please [submit an issue](https://github.com/andersy005/dask-notebooks/issues).
