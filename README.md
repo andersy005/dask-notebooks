@@ -75,7 +75,7 @@ You will need the following core libraries
 
     conda install numpy pandas h5py Pillow matplotlib scipy toolz pytables snakeviz dask distributed
 
-You may find the following libraries helpful for some exercises
+You may find the following libraries helpful for some notebooks
 
     pip install graphviz cachey
     
@@ -108,8 +108,8 @@ Windows users can install graphviz as follows
 
 Alternatively one can use the following conda commands (one installs graphviz and one installs python-bindings for graphviz):
 
-1. conda install -c conda-forge graphviz
-2. conda install -c conda-forge python-graphviz
+1. `conda install -c conda-forge graphviz`
+2. `conda install -c conda-forge python-graphviz`
 
 
 ## Datasets  
@@ -122,7 +122,10 @@ of this competition can be found [here](http://cseweb.ucsd.edu/~elkan/clresults.
 
 The following notebooks can be examined individually, although there is a more
 or less linear 'story' when followed in sequence. By using the same dataset
-they try to solve a related set of tasks with it.  
+they try to solve a related set of tasks with it.
+
+1. [**Dask Bag creation**](https://github.com/andersy005/dask-notebooks/blob/master/01-dask-bags/01-bag-creation.ipynb): About reading files and creating bags.
+2. [**Dask Bag basics**](https://github.com/andersy005/dask-notebooks/blob/master/01-dask-bags/02-bag-basics.ipynb): A look at `map`, `filter`, `compute`, `persist`
 
 ## Contributing
 Contributions are welcome!  For bug reports or requests please [submit an issue](https://github.com/andersy005/dask-notebooks/issues).
